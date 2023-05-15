@@ -13,6 +13,13 @@
 	padding: 0;
 }
 
+@media (max-width: 570px) {
+	.headerOne {
+		overflow: hidden;
+		height: 50px;
+	}
+}
+
 .mobile-bars {
 	visibility: hidden;
 	left: 10px;
@@ -30,18 +37,11 @@
 	}
 }
 
-
-@media (max-width: 500px) {
-	.headerOne {
-		height: 50px;
-	}
-}
-
 .mobileMenu {
+	position: absolute;
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
-	position: absolute;
 	height: 275px;
 	width: 100%;
 	transition: .3s;
@@ -97,6 +97,7 @@
 	left: 15%;
 	top: 15%;
 	width: 120px;
+	z-index: 5;
 	-webkit-user-select: none; /* Safari */        
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+/Edge */
@@ -111,10 +112,10 @@
 	}
 }
 
-@media (max-width: 500px) {
+@media (max-width: 570px) {
 	.header-logo {
-		width: 47px;
-		top: 10px;
+		width: 60px;
+		top: 7px;
 		left: 44%;
 	}
 }
@@ -153,6 +154,8 @@
 	transition: .2s;
 	font-size: 1.4vw;
 	text-decoration: none;
+	margin: 0;
+	padding: 0;
 }
 
 .header-order-button:hover {
