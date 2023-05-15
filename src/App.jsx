@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import HeaderOne from "./header-1.jsx"
 import SlidingBg from "./top-sliding-bg.jsx"
+import About from "./about.jsx"
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
       <HeaderOne/>
       <SlidingBg/>
+      <About/>
       <div className="top-film"></div>
     </>
   )

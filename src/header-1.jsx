@@ -26,10 +26,10 @@ export default function HeaderOne() {
       </svg>
 
       <img className="header-logo" src="header-logo.png"></img>
-      <div className="header-nav-button">HOME</div>
-      <div className="header-nav-button">COOKIES</div>
-      <div className="header-nav-button">ABOUT US</div>
-      <div className="header-nav-button">CONTACT US</div>
+      <a href="https://emnis-baked-goods.vercel.app/" className="header-nav-button">HOME</a>
+      <a className="header-nav-button">ABOUT</a>
+      <a className="header-nav-button">COOKIES</a>
+      <a className="header-nav-button">CONTACT US</a>
       <div className="header-nav-button"></div>
       <a className="header-order-button" href="https://docs.google.com/forms/d/1jJQaxa0gB24S6kVHmQkePKxbJGc0x5oDUC3L6U61c1E/viewform?edit_requested=true" target="_blank">
         ORDER ONLINE
