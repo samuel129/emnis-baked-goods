@@ -42,7 +42,7 @@ export default function SlidingBg() {
 
     return (
         <div className="slider-case">
-            <Slider {...settings}>
+            <Slider className="slider" {...settings}>
                 <img src="top-bg1.png"></img>
                 <img src="top-bg3.jpg"></img>
             </Slider>

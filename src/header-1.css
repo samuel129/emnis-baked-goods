@@ -83,13 +83,7 @@
 }
 
 @media (max-width: 500px) {
-	.mobileMenuFirstRow {
-		align-items: center;
-	}
 
-	.header-instagram-logo {
-		margin: 0;
-	}
 }
 
 .header-logo {
