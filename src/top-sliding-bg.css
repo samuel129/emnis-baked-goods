@@ -9,6 +9,20 @@
   margin: 0;
   padding: 0;
   margin-bottom: 0;
+  min-height: 600px;
+  background-color: white;
+}
+
+@media (max-width: 1100px) {
+	.slider-case {
+		min-height: 300px;
+	}
+}
+
+@media (max-width: 600px) {
+	.slider-case {
+		min-height: 0;
+	}
 }
 
 .right-arrow {
