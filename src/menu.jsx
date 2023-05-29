@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 import './menu.css'
 import Data from "./cookie-data.js"
 
@@ -8,7 +8,7 @@ export default function Menu() {
 
     const cookies = Data.map(item => {
         return (
-            <Fade delay={300} duration={1500}>
+            <Zoom delay={300} duration={1500}>
                 <div className='menu-item-container' id={item.id}>
                     <img className="menu-pic" src="./menu-pic1.jpg"></img>
                     <div className="menu-text-container">
@@ -23,7 +23,7 @@ export default function Menu() {
                         </div>
                     </div>
                 </div>
-            </Fade>
+            </Zoom>
     )})
 
     return (

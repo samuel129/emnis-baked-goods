@@ -30,5 +30,5 @@ export default [
         price: "$2.50",
         description: "Matcha cookie dough made with organic matcha powder from Uji and Kagoshima and gourmet white chocolate chips. This flavor is the #1 best seller! Contains dairy, eggs, and gluten.", 
         imgSrc: "./menu-pic1.jpg"
-    }
+    },
 ]
